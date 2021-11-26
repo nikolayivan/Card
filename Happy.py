@@ -34,7 +34,7 @@ st.header("🎉🎉🎉 🥳🥳🥳 🎈🎈🎈")
 st.balloons()
 st.subheader('Включай песню...')
 
-audio_file = open(r'C:\Users\testingcenter\Downloads\MundaneApps-main\House of Pain - Jump Around.mp3', 'rb')
+audio_file = open('House of Pain - Jump Around.mp3', 'rb')
 audio_bytes = audio_file.read()
 
 Song = st.audio(audio_bytes, format='audio/mp3')
