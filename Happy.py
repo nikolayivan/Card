@@ -47,23 +47,24 @@ if not Button:
 else:
     st.header('👇👇👇')
     st.balloons()
-    c1,c2,c3,c4 = st.columns(4)
-    with c1:
-      st_lottie(load_lottieurl(links["bot"]),key="1")
-      st_lottie(load_lottieurl(links["DS"]),key="5")
-      st.title("Желаю ярких эмоушенс...")
-    with c2:
-      st_lottie(load_lottieurl(links["face"]),key="3")
-      st_lottie(load_lottieurl(links["bot-DS"]),key="4")
-      st.title("искренних филингс ...")
-    with c3:
-      st_lottie(load_lottieurl(links["process"]),key="2")
-      st_lottie(load_lottieurl(links["net"]),key="7")
-      st.title("и большой лав 👉💍👰🤍🤵")
-    with c4:
-      st_lottie(load_lottieurl(links["love"]),key="6")
-      st_lottie(load_lottieurl(links["hearts"]),key="11")
-      st.title("🎉🎉🎉 🥳🥳🥳 🎈🎈🎈🍰🍰🍰")
-      st_lottie(load_lottieurl(links["dash"]),key="10")
-      st.write("*with love from Nick 😈😈😈")
+#     c1,c2,c3,c4 = st.columns(4)
+#     with c1:
+    st_lottie(load_lottieurl(links["bot"]),key="1")
+    st_lottie(load_lottieurl(links["DS"]),key="5")
+    st.title("Желаю ярких эмоушенс...")
+#     with c2:
+    st_lottie(load_lottieurl(links["face"]),key="3")
+    st_lottie(load_lottieurl(links["bot-DS"]),key="4")
+    st.title("искренних филингс ...")
+#     with c3:
+    st_lottie(load_lottieurl(links["process"]),key="2")
+    st_lottie(load_lottieurl(links["net"]),key="7")
+    st.title("и большой 👉💍👰🤍🤵")
+#     with c4:
+    st_lottie(load_lottieurl(links["love"]),key="6")
+    st.title("👉💍👰🤍🤵")
+    st_lottie(load_lottieurl(links["hearts"]),key="11")
+    st.title("🎉🎉🎉 🥳🥳🥳 🎈🎈🎈🍰🍰🍰")
+    st_lottie(load_lottieurl(links["dash"]),key="10")
+    st.write("*майд виз лав фром Nick 😈😈😈")
       # st_lottie(load_lottieurl(links["DS"]),key="9")
