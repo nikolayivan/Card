@@ -59,7 +59,7 @@ else:
 #     with c3:
     st_lottie(load_lottieurl(links["process"]),key="2")
     st_lottie(load_lottieurl(links["net"]),key="7")
-    st.title("и большой 👉💍👰🤍🤵")
+    st.title("и большой и чистой")
 #     with c4:
     st_lottie(load_lottieurl(links["love"]),key="6")
     st.title("👉💍👰🤍🤵")
