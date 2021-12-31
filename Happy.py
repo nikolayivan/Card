@@ -52,7 +52,7 @@ if not Button1:
 else:
     st.balloons()
     st_lottie(load_lottieurl(links["confetti"]),key="0")
-    st.title("Желаю...")
+#     st.title("Желаю...")
     st_lottie(load_lottieurl(links["DS"]),key="5")
     st.title("Еще больше результатов")
     st_lottie(load_lottieurl(links["face"]),key="3")
