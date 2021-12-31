@@ -52,19 +52,17 @@ if not Button1:
 else:
     st.balloons()
     st_lottie(load_lottieurl(links["confetti"]),key="0")
-
-    st.title("С наступающим...")
-
+    st.title("Желаю...")
     st_lottie(load_lottieurl(links["DS"]),key="5")
-
-    st.title("Новым...")
+    st.title("Еще больше результатов")
     st_lottie(load_lottieurl(links["face"]),key="3")
     st_lottie(load_lottieurl(links["bot-DS"]),key="4")
 
-    st.title("Годом ✨")
+    st.title("и ярких эмоций")
     st_lottie(load_lottieurl(links["fireworks"]),key="7")
     st_lottie(load_lottieurl(links["santa"]),key="2")
-
+    
+    st.title("В новом году ✨")
     st.title("🎉🎉🎉 🥳🥳🥳")
     st_lottie(load_lottieurl(links["year22"]),key="1")
 
