@@ -47,6 +47,10 @@ st.subheader('Считай до 10...')
 st.subheader('Жми кнопку 👇')
 Button1 = st.button('🎁 ЖМИ 🎁')
 
+with st.spinner('Wait for it...'):
+    time.sleep(5)
+# st.success('Done!')
+
 if not Button1:
     st.stop()
 else:
@@ -61,13 +65,13 @@ else:
     st_lottie(load_lottieurl(links["bot-DS"]),key="4")
     st_lottie(load_lottieurl(links["process"]),key="2")
     
-    st.title("и потрясающих событий")
+    st.title("незабываемых событий")
 #     st_lottie(load_lottieurl(links["net"]),key="7")
     
 #     st_lottie(load_lottieurl(links["fireworks"]),key="7")
     st_lottie(load_lottieurl(links["dash"]),key="10")
     
-#     st.title("В новом году ✨")
+    st.title("и потрясающего настроения!!!")
     st.title("🎉🎉🎉 🥳🥳🥳")
 #     st_lottie(load_lottieurl(links["year22"]),key="11")
 
