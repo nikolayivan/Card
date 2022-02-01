@@ -49,7 +49,7 @@ Button1 = st.button('🎁 ЖМИ 🎁')
 
 with st.spinner('Wait for it...'):
     time.sleep(5)
-# st.success('Done!')
+st.success('Done!')
 
 if not Button1:
     st.stop()
