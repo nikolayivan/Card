@@ -52,19 +52,23 @@ if not Button1:
 else:
     st.balloons()
     st_lottie(load_lottieurl(links["bot"]),key="1")
-    st_lottie(load_lottieurl(links["DS"]),key="5")
     st.title("Желаю ярких эмоций...")
+    
+    st_lottie(load_lottieurl(links["DS"]),key="5")
     st_lottie(load_lottieurl(links["face"]),key="3")
-    st_lottie(load_lottieurl(links["bot-DS"]),key="4")
     st.title("искренних чувств ...")
+    
+    st_lottie(load_lottieurl(links["bot-DS"]),key="4")
     st_lottie(load_lottieurl(links["process"]),key="2")
-    st_lottie(load_lottieurl(links["net"]),key="7")
+    
     st.title("и потрясающих событий")
+#     st_lottie(load_lottieurl(links["net"]),key="7")
+    
 #     st_lottie(load_lottieurl(links["fireworks"]),key="7")
     st_lottie(load_lottieurl(links["dash"]),key="10")
     
 #     st.title("В новом году ✨")
     st.title("🎉🎉🎉 🥳🥳🥳")
-    st_lottie(load_lottieurl(links["year22"]),key="11")
+#     st_lottie(load_lottieurl(links["year22"]),key="11")
 
     st.write("*made with love by Nick 😈😈😈")
