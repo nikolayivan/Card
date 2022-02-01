@@ -47,9 +47,9 @@ st.subheader('Считай до 10...')
 st.subheader('Жми кнопку 👇')
 Button1 = st.button('🎁 ЖМИ 🎁')
 
-with st.spinner('Wait for it...'):
-    time.sleep(5)
-st.success('Done!')
+# with st.spinner('Wait for it...'):
+#     time.sleep(5)
+# st.success('Done!')
 
 if not Button1:
     st.stop()
