@@ -65,6 +65,6 @@ else:
     
 #     st.title("В новом году ✨")
     st.title("🎉🎉🎉 🥳🥳🥳")
-    st_lottie(load_lottieurl(links["year22"]),key="1")
+    st_lottie(load_lottieurl(links["year22"]),key="11")
 
     st.write("*made with love by Nick 😈😈😈")
