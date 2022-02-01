@@ -60,7 +60,7 @@ else:
     st_lottie(load_lottieurl(links["process"]),key="2")
     st_lottie(load_lottieurl(links["net"]),key="7")
     st.title("и потрясающих событий")
-    st_lottie(load_lottieurl(links["fireworks"]),key="7")
+#     st_lottie(load_lottieurl(links["fireworks"]),key="7")
     st_lottie(load_lottieurl(links["dash"]),key="10")
     
 #     st.title("В новом году ✨")
