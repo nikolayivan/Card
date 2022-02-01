@@ -65,7 +65,7 @@ else:
     st_lottie(load_lottieurl(links["bot-DS"]),key="4")
     st_lottie(load_lottieurl(links["process"]),key="2")
     
-    st.title("незабываемых событий")
+    st.title("незабываемых событий ...")
 #     st_lottie(load_lottieurl(links["net"]),key="7")
     
 #     st_lottie(load_lottieurl(links["fireworks"]),key="7")
