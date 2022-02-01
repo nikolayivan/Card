@@ -4,7 +4,7 @@ from streamlit_lottie import st_lottie
 import requests
 import time
 
-st.set_page_config(page_title = 'Happy New Year', page_icon='🎅🏻')
+st.set_page_config(page_title = 'Happy Birthday', page_icon='🤡')
 
 
 def load_lottieurl(url: str):
@@ -34,8 +34,8 @@ links={
   "button":"https://assets3.lottiefiles.com/datafiles/ft3xlpduRes83XO/data.json"
 }
 
-# st.title("Гузя, с днем рождения!")
-# st.header("🎉🎉🎉 🥳🥳🥳 🎈🎈🎈")
+st.title("Ксения, с Днем Рождения!")
+st.header("🎉🎉🎉 🥳🥳🥳 🎈🎈🎈")
 st.balloons()
 st.subheader('Включай песню...')
 
@@ -45,25 +45,26 @@ audio_bytes = audio_file.read()
 Song = st.audio(audio_bytes, format='audio/mp3')
 st.subheader('Считай до 10...')
 st.subheader('Жми кнопку 👇')
-Button1 = st.button('🎅🏻 ЖМИ 🎅🏻')
+Button1 = st.button('🎁 ЖМИ 🎁')
 
 if not Button1:
     st.stop()
 else:
     st.balloons()
-    st_lottie(load_lottieurl(links["confetti"]),key="0")
-    st.title("Желаю...")
+    st_lottie(load_lottieurl(links["bot"]),key="1")
     st_lottie(load_lottieurl(links["DS"]),key="5")
-    st.title("ещё больше результатов")
+    st.title("Желаю ярких эмоций...")
     st_lottie(load_lottieurl(links["face"]),key="3")
     st_lottie(load_lottieurl(links["bot-DS"]),key="4")
-
-    st.title("и ярких эмоций")
+    st.title("искренних чувств ...")
+    st_lottie(load_lottieurl(links["process"]),key="2")
+    st_lottie(load_lottieurl(links["net"]),key="7")
+    st.title("и потрясающих событий")
     st_lottie(load_lottieurl(links["fireworks"]),key="7")
-    st_lottie(load_lottieurl(links["santa"]),key="2")
+    st_lottie(load_lottieurl(links["dash"]),key="10")
     
-    st.title("В новом году ✨")
+#     st.title("В новом году ✨")
     st.title("🎉🎉🎉 🥳🥳🥳")
     st_lottie(load_lottieurl(links["year22"]),key="1")
 
-    st.write("*made with love from Nick 😈😈😈")
+    st.write("*made with love by Nick 😈😈😈")
