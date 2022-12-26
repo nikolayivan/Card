@@ -34,7 +34,7 @@ links={
   "button":"https://assets3.lottiefiles.com/datafiles/ft3xlpduRes83XO/data.json"
 }
 
-st.title("Ксения, с Днем Рождения!")
+st.title("Kate, с Днем Рождения!")
 st.header("🎉🎉🎉 🥳🥳🥳 🎈🎈🎈")
 st.balloons()
 st.subheader('Включай песню...')
@@ -60,12 +60,12 @@ else:
     
     st_lottie(load_lottieurl(links["DS"]),key="5")
     st_lottie(load_lottieurl(links["face"]),key="3")
-    st.title("искренних чувств ...")
+    st.title("много путешествий...")
     
     st_lottie(load_lottieurl(links["bot-DS"]),key="4")
     st_lottie(load_lottieurl(links["process"]),key="2")
     
-    st.title("незабываемых событий ...")
+    st.title("незабываемых событий...")
 #     st_lottie(load_lottieurl(links["net"]),key="7")
     
 #     st_lottie(load_lottieurl(links["fireworks"]),key="7")
@@ -75,4 +75,4 @@ else:
     st.title("🎉🎉🎉 🥳🥳🥳")
 #     st_lottie(load_lottieurl(links["year22"]),key="11")
 
-    st.write("*made with love by Nick 😈😈😈")
+    # st.write("*made with love by Nick 😈😈😈")
