@@ -43,8 +43,6 @@ audio_file = open('House of Pain - Jump Around.mp3', 'rb')
 audio_bytes = audio_file.read()
 
 Song = st.audio(audio_bytes, format='audio/mp3')
-if Song:
-    st.write(True)
 st.subheader('Считай до 10...')
 st.subheader('Жми кнопку 👇')
 Button1 = st.button('🎁 ЖМИ 🎁')
