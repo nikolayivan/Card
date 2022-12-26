@@ -71,8 +71,8 @@ else:
 #     st_lottie(load_lottieurl(links["fireworks"]),key="7")
     st_lottie(load_lottieurl(links["dash"]),key="10")
     
-    st.title("и потрясающего настроения!!!")
-    st.title("🎉🎉🎉 🥳🥳🥳")
+    st.title("и потрясающего настроения 🎉🎉🎉")
+    st.title("🥳🥳🥳")
 #     st_lottie(load_lottieurl(links["year22"]),key="11")
 
     # st.write("*made with love by Nick 😈😈😈")
